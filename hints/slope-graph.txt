@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For later: When you click or hover, you have function (d), which means you can use d.state or whatever to get the current state's name, right? But if you have another function(d) inside of that function(d), you lose your original d.state - maybe save it as stateName?
+
+
+
+
+
+
+
+
+
+
+
+
+You'll want to use console.log(d) a lot in this to see what the data looks like - it isn't always the same as in the csv! Especially for the line, it's real weird. It's going to be kind of like when you're scraping or using an API and need to pick around a bit.
+
